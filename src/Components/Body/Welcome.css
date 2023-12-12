@@ -1,0 +1,38 @@
+.body_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .body_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    width: 100%;
+  }
+  .body-p,
+  .body-h {
+    color: black;
+  }
+  
+
+  .body-text {
+    
+    flex: 1;
+    margin-right: 20px;
+    width: 100%; 
+  }
+  
+  .bu-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 84px;
+  }
+  
+  .bu-img {
+    width: 35%; 
+  }
+  

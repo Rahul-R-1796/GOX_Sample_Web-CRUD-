@@ -1,0 +1,36 @@
+.logo {
+  color: #fff;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+  display: block;
+  padding: 0.75rem;
+  flex: none;
+}
+
+.Footer_div {
+  width: 25%;
+}
+
+.foot {
+  color: #fff;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: calc(1.5rem - .75rem);
+  display: flex;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 29, 46);
+}

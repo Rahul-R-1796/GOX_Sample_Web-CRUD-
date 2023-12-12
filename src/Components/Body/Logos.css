@@ -1,0 +1,47 @@
+
+.body-logo-container {
+  padding: 20px; 
+}
+
+.bu-heading {
+  color: #515153;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 10px 10px 10px 250px;
+}
+.brands-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.brands_image {
+  margin: 10px; 
+  
+}
+.brands_image:hover {
+  margin-bottom: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.logo-img {
+
+    height: 100%;
+    width: 100%;
+ 
+    bottom: 0;
+    object-fit: contain;
+   
+  filter: grayscale(100%);
+
+  transition: filter 0.3s ease; 
+}
+
+
+.logo-img:hover {
+  filter: grayscale(0%);
+}

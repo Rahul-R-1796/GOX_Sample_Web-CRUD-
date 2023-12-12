@@ -1,0 +1,84 @@
+.review-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid black;
+    padding: 10px 30px;
+    
+
+  }
+
+  .review-box-container{
+    text-align: center;
+    margin: 10px 300px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px black;
+  }
+  
+
+  .review-container > div {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+  }
+  
+
+  .avatar {
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+  }
+  
+
+  .author-info p {
+    margin: 0;
+  }
+  
+  .author-info p:first-child {
+    font-weight: bold;
+  }
+  
+  .author-info p:last-child {
+    font-weight: lighter;
+    margin-top: 2px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
